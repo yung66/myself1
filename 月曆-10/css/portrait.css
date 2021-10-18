@@ -1,0 +1,110 @@
+@media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
+    #current-day-info {
+        width: 100%;
+        min-height: initial; /* initial最小高度不小於初始值 */
+        height: 12vh;
+        padding: 1vw 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        clip-path:none;
+    }
+    #current-day-info h2 {
+        font-size: 6vw;
+    }
+    #current-day-info h1 {
+        font-size: 7vw;
+    }
+      #current-day-info #app-name-landscape {
+        display: none;
+      }
+      #current-day-info #theme-landscape {
+        display: none;
+      }
+      #current-day-info .current-day-heading {
+        display: inline;
+        padding: 0;
+        margin: 0 4px;
+      }        
+    
+      #calendar {
+        width: 100%;
+        display: block;
+        margin-top: 3.6vh;
+      }
+      #calendar #app-name-portrait {
+        display: block;
+        margin: 0;
+        font-size: 3.5vh;
+      }
+      #calendar h4 {
+        padding: 1.2vw 0 0.2vw;
+        font-size: 2.8vw;
+      }
+      #calendar h3 {
+        font-size: 3.8vw;
+        padding: 1.4vw 2vw 0.8vw;
+      }
+      #calendar .icon {
+        font-size: 2.9vw;
+      }
+      #calendar .weekday {
+        font-size: 2.5vw;
+      }
+      #calendar tbody td {
+        height: 9.8vw;
+        width: 9.8vw;
+        font-size: 1.6vw;
+        padding: 0.8vw;
+      }
+      #calendar img {
+        width: 7.4vw;
+        top: 0.7vw;
+      }
+      #calendar #theme-portrait {
+        display: block;
+        padding: 3vw 26.5vw;
+        font-size: 4vw;
+        margin-top: 2vh;
+        border: none;
+      }
+      .background-text {
+        top: 60%;
+        left:48%;
+        transform: translate(-50%, -50%);
+      }
+      h4.background-text {
+        top: 70%;
+        font-size: 7vw;
+      }
+    .popup { 
+        width: 75vw; 
+    } 
+    #fav-color #color-options .color-option { 
+        width: 12vw; 
+    } 
+    #fav-color #update-theme-button { 
+        padding: 6px 16px; border-width: 2px; 
+    } 
+    #fav-color #color-options .checkmark { 
+        font-size: 1.2vh 
+    }
+    #make-note #edit-post-it { 
+        width: 62vw; 
+        height: 24vh; 
+        font-size: 4vh; 
+    }
+    #fav-color #color-options .color-preview {
+        width: calc(30px + 1.7vw);
+        height: calc(30px + 1.7vw);
+    }     
+    .b_hover:active{
+      background-color: rgb(196, 179, 211);
+    }
+
+
+    }

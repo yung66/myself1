@@ -1,0 +1,112 @@
+dialog {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding:0;
+    background-color: rgba(29,29,29,0.85);
+    position: fixed;
+}
+.popup {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin: 22vh auto 0;
+    background-color: #FEFDFD;
+    border-radius: 10px;
+}
+#fav-color h4 {
+    margin: 32px 0 18px;
+    font-size: calc(12px + 1.6vw);
+    font-weight: 300;
+    padding: 0 2vw 2px;
+    border-bottom: 1px solid #222;
+}
+#fav-color #color-options {
+    width: 84%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#fav-color #color-options h5 {
+    margin: 8px 0 12px;
+    font-size: calc(6px + 0.6vw);
+    font-weight: 500;
+}
+#fav-color #color-options .color-option {
+    margin: 0.4vw;
+    width: 6vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#fav-color #color-options .color-preview {
+    width: calc(16px + 1.7vw);
+    height: calc(16px + 1.7vw);
+    padding: 0;
+    border-radius: 100%;
+    display: flex;    
+    /* 依據交叉軸(縱)置中對齊 */
+    align-items: center;   
+    /* 依據主軸(橫)置中對齊 */
+    justify-content: center;
+    clip-path: ellipse(47% 34% at 49% 52%);
+    transform: rotate(30deg);
+}
+#fav-color #update-theme-button {
+    margin: 24px 0 20px;
+    padding: 8px 20px;
+    font-size: calc(8px + 0.6vw);
+    font-weight: 400;
+    border: 3px solid #222;
+}
+#fav-color #update-theme-button:hover {
+    color: white;
+    background-color: #222;
+}
+#fav-color #color-options .checkmark {
+    color: white;
+    font-size: 1.2vw;
+}
+#make-note h4 {
+    margin: 32px 0 18px;
+    font-size: calc(16px + 1.6vw);
+    font-weight: 300;
+}
+#make-note #edit-post-it {
+    height: 200px;
+    width: 42vw;
+    font-size: 2.6vw;
+    padding: 14px;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    outline: none;
+    resize: none; /* 對話框大小固定 */
+}
+#make-note .post-it-button {
+    display: inline;
+    margin: 24px 0 20px;
+    padding: 8px 20px;
+    font-size: calc(12px + 0.6vw);
+    font-weight: 400;
+}
+#make-note #add-post-it {
+    border: 3px solid #222;
+}
+#make-note #add-post-it:hover {
+    color: white;
+    background-color: #222;
+}
+#make-note #delete-button {
+    border: 3px solid #D71C1F;
+    background-color: #D71C1F;
+    color: white;
+}
+#make-note #delete-button:hover {
+    background-color: white;
+    color: #D71C1F;
+    }      

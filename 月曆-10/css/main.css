@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+body{
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 0;
+    background-color: #FDFAFF;
+    display: flex;
+    align-items: stretch;
+}
+.font { 
+    font-family: 'Shadows Into Light Two', cursive;
+}
+.default-cursor {
+    cursor:default;
+}
+.center {
+    text-align: center;
+}
+.button{
+border-radius: 500px;
+outline: none;
+margin: 0 auto;
+background-color: Transparent;
+}
+.color {
+color: #FEFDFD;
+background-color: #BB92D3;
+}
+.border-color{
+border-color:  #BB92D3;
+}
+.off-color {
+color: #F2E5F5;
+}     
